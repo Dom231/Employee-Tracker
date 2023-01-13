@@ -12,7 +12,8 @@ VALUES ("Jr. Engineer ",30000,1),
        ("Complaint Specialist",70000,3);
 
 INSERT INTO employee(first_name,last_name,role_id,manager_id)
-VALUES ("Dom","Teran",6,3),
+VALUES (NULL," ", NULL, NULL),
+       ("Dom","Teran",6,2),
        ("Jon","cam",2,1),
        ("Vinh", "Nguyen",1,2),
        ("Bella", "Nhi",4,3);
