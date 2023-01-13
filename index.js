@@ -145,7 +145,7 @@ JOIN employee manager ON manager.id = employee.manager_id;`;
 {
   type:'input',
   name: 'manager', 
-  message:"Enter manager's employee id(Refrence employee table)"
+  message:"Enter manager's employee id(enter 1 for none)"
 }
 ])
 .then((answer)=>{
